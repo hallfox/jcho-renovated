@@ -46,3 +46,22 @@
 {
   border-color: #004b00;
 }
+
+#mission
+{
+	margin-top: -25px;
+}
+#mission p
+{
+	font-size: 18px;
+	color: black;
+}
+
+a
+{
+	color:#004b00;
+}
+a:hover
+{
+	color:green;
+};

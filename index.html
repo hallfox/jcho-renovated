@@ -11,13 +11,12 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Sidebar CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <!-- <link href="starter-template.css" rel="stylesheet"> -->
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,89 +26,59 @@
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" >
-      <div class="container">
-        <div class="navbar-header">
-          <a href="" class="navbar-brand">The Advanced Materials and Mechanics Laboratory</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse navbar-inverse-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <!-- navbar content list -->
-            <li><a href="">Home</a></li>
-            <li><a href="">People</a></li>
-            <li><a href="">Research</a></li>
-            <li><a href="">Publications</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="links">Links <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://www.me.binghamton.edu/">Department of Mechanical Engineering</a></li>
-                <li><a href="http://materials.binghamton.edu/materials/">Program of Materials Science and Engineering</a></li>
-                <li><a href="http://www.ieec.binghamton.edu/ieec/">Integrated Electronics Engineering Center (IEEC)</a></li>
-                <li><a href="http://research.binghamton.edu/">Research at Binghamton University</a></li>
-                <li><a href="http://library.lib.binghamton.edu/">BU Libraries</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <div id="wrapper">
+      <div id="navbar-wrapper"></div>
+      
+      <div id="sidebar-wrapper"></div>
 
+      <div id="page-content-wrapper">
+        <div id="main-content" class="container"> <!-- Begin main-content -->
 
-    <div id="main-content" class="container">
-
-      <div class="page-header" id="banner">
-        <div class="row">
-          <div class="col-lg-6">
-            <h1>The Cho Research Group</h1>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="bs-component" id="mission">
-            <h2>Mission</h2>
-            <p>Our research goal is to study materials and mechanics to tackle various engineering problems encountered as a result of material failure, as well as to design enabling materials so that the most advanced concepts in technology can be realized. The emphasis is given to gain a basic understanding of material microstructures and properties and their relationships. Particularly, we have been involved with structure-property relationships of thin films/coatings (ceramics, polymers, metals), mechanical behavior of materials at nano- and microscales, and microstructure design. Current and future efforts encompass application of nano/micro-mechanics, computer simulation and modeling, and nanoscale characterization techniques to electronic and MEMS packaging, hybrid inorganic/organic systems, and polymeric materials. Further, we focus on novel processing sciences and techniques including biomimetic synthesis, template-directed nucleation and growth of inorganic materials, self-assembled materials, and nanoscale  patterning.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="bs-component" id="contact">
-            <h3>Contact Information</h3>
-            <p><strong>Prof. Junghyun Cho</strong><br/>
-            Dept. of Mechanical Engineering<br/>
-            T.J. Watson School of Engineering<br/>
-            State University of New York (SUNY) at Binghamton<br/>
-            Vestal Pkwy East<br/>
-            Binghamton, NY 13902-6000<br/></p>
-            <p>Ph: 607) 777-2897 (Office), 607) 777-4967 (Lab)<br/>
-            Fax: 607) 777-4620<br/>
-            E-mail: <a href="mailto:jcho@binghamton.edu">jcho@binghamton.edu</a><br/>
-            </p>
-          </div>
-        </div>
-      </div>
-
-     <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="bs-component" id="sponsors">
-              <ul class="list-unstyled">
-                <li>(Sponsors go here)</li>
-              </ul>
+          <div class="page-header" id="banner">
+            <div class="row">
+              <div class="col-lg-6">
+                <h1>The Cho Research Group</h1>
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
 
-    </div><!-- /.container -->
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="bs-component" id="mission">
+                <h2>Mission</h2>
+                <p>Our research goal is to study materials and mechanics to tackle various engineering problems encountered as a result of material failure, as well as to design enabling materials so that the most advanced concepts in technology can be realized. The emphasis is given to gain a basic understanding of material microstructures and properties and their relationships. Particularly, we have been involved with structure-property relationships of thin films/coatings (ceramics, polymers, metals), mechanical behavior of materials at nano- and microscales, and microstructure design. Current and future efforts encompass application of nano/micro-mechanics, computer simulation and modeling, and nanoscale characterization techniques to electronic and MEMS packaging, hybrid inorganic/organic systems, and polymeric materials. Further, we focus on novel processing sciences and techniques including biomimetic synthesis, template-directed nucleation and growth of inorganic materials, self-assembled materials, and nanoscale  patterning.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="bs-component" id="pictures">
+                <img src="img/sponsors/bulogo.jpg" height="75px" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="bs-component" id="contact">
+                <h3>Contact Information</h3>
+                <p><strong>Prof. Junghyun Cho</strong><br/>
+                  Dept. of Mechanical Engineering<br/>
+                  T.J. Watson School of Engineering<br/>
+                  State University of New York (SUNY) at Binghamton<br/>
+                  Vestal Pkwy East<br/>
+                  Binghamton, NY 13902-6000<br/></p>
+                  <p>Ph: 607) 777-2897 (Office), 607) 777-4967 (Lab)<br/>
+                    Fax: 607) 777-4620<br/>
+                    E-mail: <a href="mailto:jcho@binghamton.edu">jcho@binghamton.edu</a><br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <footer></footer>
+
+          </div> <!-- End main content -->
+        </div>
+      </div><!-- /.wrapper -->
 
 
     <!-- Bootstrap core JavaScript
@@ -117,5 +86,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Load all the components into the page -->
+    <script src="js/load-components.js"></script>
   </body>
 </html>

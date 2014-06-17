@@ -1,3 +1,9 @@
+/*
+binghamton-green = #005a43
+highlight-green = #007a43
+
+*/
+
 #main-content
 {
 	margin-top: 25px;
@@ -19,32 +25,32 @@
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus
 {
-  background-color: green;
+  background-color: #007a43;
 }
 
 .navbar-inverse
 {
-	background-color: #006400;
-	border-color: #004b00;
+	background-color: #005a43;
+	border-color: #005a43;
 }
 
 .navbar-inverse .navbar-toggle,
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus
 {
-	border-color: #004b00;
+	border-color: #005a43;
 }
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus
 {
-	background-color: green;
+	background-color: #007a43;
 }
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form
 {
-  border-color: #004b00;
+  border-color: #005a43;
 }
 
 #mission
@@ -59,9 +65,18 @@
 
 a
 {
-	color:#004b00;
+	color:#005a43;
 }
 a:hover
 {
-	color:green;
-};
+	color:#007a43;
+}
+#sidebar-wrapper
+{
+	margin-top:36px;
+}
+.sidebar-nav li a,
+.sidebar-nav > .sidebar-brand a
+{
+	color: #808080;
+}

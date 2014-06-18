@@ -80,3 +80,37 @@ a:hover
 {
 	color: #808080;
 }
+#sidebar-wrapper,
+#wrapper
+{
+	transition: none;
+}
+#team-photo
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 650px;
+}
+.bulogo
+{
+	content: url("../img/sponsors/bulogo.jpg");
+	height: 75px
+}
+footer
+{
+	margin-top: 40px;
+}
+#showcase img
+{
+	width: 300px;
+}
+#showcase td
+{
+	text-align: center;
+	vertical-align: middle;
+}
+#showcase p
+{
+	font-size: 16px;
+}

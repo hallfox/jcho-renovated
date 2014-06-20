@@ -52,7 +52,6 @@ highlight-green = #007a43
 {
   border-color: #005a43;
 }
-
 #mission
 {
 	margin-top: -25px;
@@ -62,10 +61,10 @@ highlight-green = #007a43
 	font-size: 18px;
 	color: black;
 }
-
 a
 {
 	color:#005a43;
+	cursor: pointer;
 }
 a:hover
 {
@@ -74,11 +73,18 @@ a:hover
 #sidebar-wrapper
 {
 	margin-top:36px;
+	background-color: #F0F0F0;
 }
 .sidebar-nav li a,
 .sidebar-nav > .sidebar-brand a
 {
 	color: #808080;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #000;
+}
+.sidebar-nav li a:hover {
+  color: #000;
 }
 #sidebar-wrapper,
 #wrapper
@@ -113,4 +119,31 @@ footer
 #showcase p
 {
 	font-size: 16px;
+}
+#slides img
+{
+	width: 100%;
+	height: 100%;
+}
+#slides
+{
+	margin-top: 18px;
+}
+#our-lab
+{
+	margin-top: -25px;
+}
+#sponsors li
+{
+	display: inline-block;
+	margin-right: 30px;
+}
+#logo
+{
+	margin-top: 200%;
+	margin-left: 5%;
+}
+#logo img
+{
+	width:80%;
 }

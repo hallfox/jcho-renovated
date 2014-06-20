@@ -9,12 +9,9 @@
 
     <title>Advanced Materials and Mechanics Laboratory</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="css/theme.css" rel="stylesheet">
-
     <!-- Sidebar CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -50,8 +47,22 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="bs-component" id="pictures">
-                <img class="bulogo" />
+              <div class="bs-component" id="our-lab">
+                <h2>Our Lab</h2>
+                <div class="cycle-slideshow" id="slides"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="5000"
+                data-cycle-next="#slides"
+                data-cycle-auto-height="3:2"
+                data-cycle-caption="#slide-caption"
+                data-cycle-caption-template="Slide {{slideNum}} of {{slideCount}}">
+                  <img src="img/res-tools-1.jpg" />
+                  <img src="img/res-tools-2.jpg" />
+                  <img src="img/res-tools-3.jpg" />
+                  <img src="img/res-tools-4.jpg" />
+                  <img src="img/res-tools-5.jpg" />
+                </div>
+                <div id="slide-caption"></div>
               </div>
             </div>
           </div>
@@ -82,6 +93,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
     <!-- Load all the components into the page -->
     <script src="js/load-components.js"></script>
   </body>

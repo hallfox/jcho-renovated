@@ -103,10 +103,7 @@ a:hover
 	content: url("../img/sponsors/bulogo.jpg");
 	height: 75px
 }
-footer
-{
-	margin-top: 40px;
-}
+
 #showcase img
 {
 	width: 300px;
@@ -120,14 +117,16 @@ footer
 {
 	font-size: 16px;
 }
-#slides img
+.slides img
 {
 	width: 100%;
 	height: 100%;
 }
-#slides
+#home-slides
 {
-	margin-top: 18px;
+	height: 400px;
+	width: 400px;
+	margin-top:36px;
 }
 #our-lab
 {
@@ -136,7 +135,7 @@ footer
 #sponsors li
 {
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 24px;
 }
 #logo
 {
@@ -146,4 +145,8 @@ footer
 #logo img
 {
 	width:80%;
+}
+#disclaimer
+{
+	font-size: 11px;
 }

@@ -1,7 +1,10 @@
 function load (component, html)
 {
-	if ($(component).length)
-		return $(component).load(html);
+	$.ajax({
+		url: html,
+		success: function (data) { $(component).append(data); },
+		dataType: "html"
+	});
 }
 
 load("#navbar-wrapper", "components/navbar.html");

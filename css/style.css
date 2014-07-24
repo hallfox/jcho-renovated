@@ -52,6 +52,20 @@ highlight-green = #007a43
 {
   border-color: #005a43;
 }
+.btn-primary
+{
+	background-color:#005a43;
+	border-color:#005a43;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary
+{
+	background-color:#005a43;
+	border-color:#007a43;
+}
 #mission
 {
 	margin-top: -25px;
@@ -117,16 +131,16 @@ a:hover
 {
 	font-size: 16px;
 }
-.slides img
-{
-	width: 100%;
-	height: 100%;
-}
 #home-slides
 {
 	height: 400px;
 	width: 400px;
 	margin-top:36px;
+}
+#home-slides img
+{
+	height: 100%;
+	width: 100%;
 }
 #our-lab
 {
@@ -139,14 +153,68 @@ a:hover
 }
 #logo
 {
-	margin-top: 200%;
+	margin-top: 115%;
 	margin-left: 5%;
 }
 #logo img
 {
 	width:80%;
+	margin-bottom: 25px;
 }
 #disclaimer
 {
 	font-size: 11px;
+}
+#research-figures img
+{
+	width: 100%;
+	height: 100%;
+}
+#main-content
+{
+	width: 100%;
+	height: 100%;
+}
+#conic-vid video
+{
+	width: 100%;
+	height: 100%;
+}
+.modal-figure
+{
+	width: 100%;
+	height: 100%;
+}
+#research-intro
+{
+	color: black;
+	font-size: 18px;
+}
+#cycle-wrapper
+{
+	width: 50%;
+	margin: 0;
+	margin-left: auto;
+}
+#cycle-info
+{
+	width: 50%;
+	margin: 0;
+	margin-right: auto;
+}
+.sidebar-text
+{
+	font-size: 20px;
+}
+#sidebar-header
+{
+	color:black;
+}
+footer
+{
+	margin-top: 50px;
+}
+.modal
+{
+	overflow: auto;
 }

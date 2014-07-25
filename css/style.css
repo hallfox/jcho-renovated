@@ -4,9 +4,35 @@ highlight-green = #007a43
 
 */
 
+#wrapper
+{
+	min-height: 100%;
+	position: relative;
+}
+#page-content-wrapper
+{
+	height: 100%;
+}
 #main-content
 {
+	height: 100%;
 	margin-top: 25px;
+}
+html, body
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+footer
+{
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+}
+#body
+{
+	padding-bottom:80px;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
@@ -209,10 +235,6 @@ a:hover
 #sidebar-header
 {
 	color:black;
-}
-footer
-{
-	margin-top: 50px;
 }
 .modal
 {

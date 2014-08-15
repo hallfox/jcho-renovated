@@ -131,7 +131,7 @@ a:hover
 {
 	transition: none;
 }
-#team-photo
+.team-photo
 {
 	margin-left: auto;
 	margin-right: auto;
@@ -239,4 +239,14 @@ a:hover
 .modal
 {
 	overflow: auto;
+}
+#index-heading
+{
+	display: inline-block;
+}
+#index-logo
+{
+	margin-left: 50px;
+	height: 80px;
+	margin-top:-20px;
 }
